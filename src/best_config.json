@@ -5,9 +5,8 @@
   "learning_rate": 0.001,
   "weight_decay": 0.0001,
   "optimizer": "rmsprop",
-  "num_layers": 3,
+  "num_layers": 2,
   "hidden_size": [
-    128,
     128,
     128
   ],
@@ -18,6 +17,6 @@
   "model_save_path": "best_model.npy",
   "config_save_path": "best_config.json",
   "no_wandb": true,
-  "test_f1": 0.978590646414756,
-  "test_accuracy": 0.9786
+  "test_f1": 0.9774076998639368,
+  "test_accuracy": 0.9774
 }
