@@ -1,12 +1,14 @@
 {
   "dataset": "mnist",
-  "epochs": 10,
-  "batch_size": 128,
+  "epochs": 15,
+  "batch_size": 256,
   "learning_rate": 0.001,
   "weight_decay": 0.0001,
   "optimizer": "rmsprop",
-  "num_layers": 2,
+  "num_layers": 4,
   "hidden_size": [
+    128,
+    128,
     128,
     128
   ],
@@ -17,6 +19,6 @@
   "model_save_path": "best_model.npy",
   "config_save_path": "best_config.json",
   "no_wandb": true,
-  "test_f1": 0.9774076998639368,
-  "test_accuracy": 0.9774
+  "test_f1": 0.9782944074326959,
+  "test_accuracy": 0.9783
 }
